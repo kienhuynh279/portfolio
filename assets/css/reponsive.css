@@ -1,0 +1,148 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 739px) {
+    .header {
+        width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .home {
+        width: 700px;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        text-align: center;
+            }
+
+    .home-title {
+        padding: 0;
+    }
+
+    .home-img {
+        padding: 24px 0 0 0;
+    }
+
+    .home-img img {
+        width: 60%;
+    }
+
+    .skill {
+        width: 700px;
+        margin: 0 auto;
+        
+    }
+
+    .skill-list {
+        flex-wrap: wrap;
+    }
+
+    .skill-item {
+        width: 33%;
+        margin: 20px 0;
+    }
+
+    .skill-future {
+        margin-top: 1em;
+    }
+
+    .work {
+        width: 700px;
+        margin: 0 auto;
+        
+    }
+
+    .work-list {
+        flex-wrap: wrap;
+    }
+
+    .work-item {
+        width: 100%;
+    }
+
+    .footer {
+        width: 700px;
+        margin: 0 auto;
+       
+    }
+    
+    .menu {
+        right: 40px;
+    }
+}
+
+/* Tablet: width >=740px and <1024px  */
+@media only screen and (min-width: 740px) and  (max-width: 1023px) {
+    .header {
+        width: 740px;
+        margin: 0 auto;
+    }
+
+    .home {
+        width: 740px;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+
+    .home-title {
+        padding: 0;
+    }
+
+    .home-img {
+        padding: 24px 0 0 0;
+    }
+
+    .home-img img {
+        width: 60%;
+    }
+
+    .skill {
+        width: 740px;
+        margin: 0 auto;
+       
+    }
+
+    .skill-list {
+        flex-wrap: wrap;
+    }
+
+    .skill-item {
+        width: 33%;
+        margin: 20px 0;
+    }
+
+    .skill-future {
+        margin-top: 1em;
+    }
+
+    .work {
+        width: 740px;
+        margin: 0 auto;
+       
+    }
+
+    .work-list {
+        flex-wrap: wrap;
+    }
+
+    .work-item {
+        width: 100%;
+    }
+
+    .footer {
+        width: 740px;
+        margin: 0 auto;
+        
+    }
+    
+    .menu {
+        right: 40px;
+    }
+}
+
+/* pc: width>=1024px */
+@media only screen and (min-width: 1024px) {
+    
+}
