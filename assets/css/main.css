@@ -1,5 +1,3 @@
-
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -32,7 +30,6 @@
 .home {
     display: flex;
     align-items: center;
-    height: 95vh;
     width: 1280px;
     margin: 0 auto;
 }
@@ -88,7 +85,7 @@ p span {
 }
 
 .skill {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 7em;
     width: 1280px;
     margin: 0 auto;
@@ -152,7 +149,6 @@ p span {
 }
 
 .work {
-    height: 100vh;
     width: 1280px;
     margin: 0 auto;
 }
@@ -228,9 +224,13 @@ p span {
 }
 
 .footer {
-    height: 10vh;
     width: 1280px;
     margin: 0 auto;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-menu {

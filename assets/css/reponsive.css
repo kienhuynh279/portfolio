@@ -13,7 +13,7 @@
         margin: 0 auto;
         flex-direction: column-reverse;
         text-align: center;
-            }
+    }
 
     .home-title {
         padding: 0;
@@ -28,9 +28,8 @@
     }
 
     .skill {
-        width: 700px;
+        width: 690px;
         margin: 0 auto;
-        
     }
 
     .skill-list {
@@ -38,7 +37,7 @@
     }
 
     .skill-item {
-        width: 33%;
+        width: 100%;
         margin: 20px 0;
     }
 
@@ -49,7 +48,6 @@
     .work {
         width: 700px;
         margin: 0 auto;
-        
     }
 
     .work-list {
@@ -120,7 +118,6 @@
     .work {
         width: 740px;
         margin: 0 auto;
-       
     }
 
     .work-list {
