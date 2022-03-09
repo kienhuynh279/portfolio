@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4em;
+    padding: 2em 0;
     scroll-behavior: smooth;
     width: 1280px;
     margin: 0 auto;
@@ -85,7 +85,6 @@ p span {
 }
 
 .skill {
-    /* height: 100vh; */
     padding-top: 7em;
     width: 1280px;
     margin: 0 auto;
@@ -141,7 +140,7 @@ p span {
 
 .skill-future {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 1em;
     font-size: 1.4em;
     font-style: italic;
     font-weight: 100;

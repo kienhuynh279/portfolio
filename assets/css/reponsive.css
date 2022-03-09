@@ -1,56 +1,85 @@
-/* Mobile: width < 740px */
-@media only screen and (max-width: 739px) {
-    .header {
-        width: 700px;
-        margin: 0 auto;
-        text-align: center;
-        flex-direction: column;
-        margin-top: 20px;
+@media only screen and (max-width: 576px) {
+    /* .header {
+        
     }
 
     .home {
-        width: 700px;
+        width: 580px;
         margin: 0 auto;
-        flex-direction: column-reverse;
+        flex-flow: column-reverse;
+        align-items: center;
         text-align: center;
     }
 
     .home-title {
-        padding: 0;
+        font-size: 2em;
     }
 
     .home-img {
-        padding: 24px 0 0 0;
+        width: 80%;
     }
 
-    .home-img img {
-        width: 60%;
-    }
-
-    .skill {
-        width: 690px;
+    .work {
+        width: 580px;
         margin: 0 auto;
     }
 
+    .work-list {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .work-item {
+        width: 100%;
+    }
+
+    .skill {
+        width: 580px;
+        margin: 0 auto;
+        padding-top: 1.5em;
+    }
+
     .skill-list {
+        width: 100%;
         flex-wrap: wrap;
     }
 
     .skill-item {
         width: 50%;
-        margin: 20px 0;
+    } */
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) { 
+    .header {
+        width: 580px;
+        margin: 0 auto;
     }
 
-    .skill-future {
-        margin-top: 1em;
+    .home {
+        width: 580px;
+        margin: 0 auto;
+        flex-flow: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-title {
+        font-size: 2em;
+    }
+
+    .home-img {
+        width: 80%;
     }
 
     .work {
-        width: 700px;
+        width: 580px;
         margin: 0 auto;
     }
 
     .work-list {
+        width: 100%;
         flex-wrap: wrap;
     }
 
@@ -58,88 +87,126 @@
         width: 100%;
     }
 
-    .footer {
-        width: 700px;
+    .skill {
+        width: 580px;
         margin: 0 auto;
-       
+        padding-top: 1.5em;
     }
-    
-    .menu {
-        right: 40px;
+
+    .skill-list {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .skill-item {
+        width: 50%;
     }
 }
 
-/* Tablet: width >=740px and <1024px  */
-@media only screen and (min-width: 740px) and  (max-width: 1023px) {
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
     .header {
-        width: 740px;
+        width: 780px;
         margin: 0 auto;
     }
 
     .home {
-        width: 740px;
+        width:780px;
         margin: 0 auto;
-        flex-direction: column-reverse;
-        text-align: center;
-        
     }
 
     .home-title {
-        padding: 0;
+        font-size: 2em;
     }
 
-    .home-img {
-        padding: 24px 0 0 0;
-    }
-
-    .home-img img {
-        width: 60%;
+    .work {
+        width:780px;
+        margin: 0 auto;
     }
 
     .skill {
-        width: 740px;
+        padding-top: 1em;
+        width:780px;
         margin: 0 auto;
-       
     }
 
     .skill-list {
+        width: 100%;
         flex-wrap: wrap;
     }
 
     .skill-item {
         width: 33%;
-        margin: 20px 0;
-    }
-
-    .skill-future {
-        margin-top: 1em;
-    }
-
-    .work {
-        width: 740px;
-        margin: 0 auto;
-    }
-
-    .work-list {
-        flex-wrap: wrap;
-    }
-
-    .work-item {
-        width: 100%;
-    }
-
-    .footer {
-        width: 740px;
-        margin: 0 auto;
-        
-    }
-    
-    .menu {
-        right: 40px;
     }
 }
 
-/* pc: width>=1024px */
-@media only screen and (min-width: 1024px) {
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){ 
+    .header {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .home {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .work {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .skill {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
     
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    .header {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    .home {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    .work {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    .skill {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) { 
+    .header {
+        width: 1444px;
+        margin: 0 auto;
+    }
+
+    .home {
+        width: 1444px;
+        margin: 0 auto;
+    }
+
+    .work {
+        width: 1444px;
+        margin: 0 auto;
+    }
+
+    .skill {
+        width: 1444px;
+        margin: 0 auto;
+    }
 }
