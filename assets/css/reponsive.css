@@ -71,8 +71,7 @@
     }
 
     .menu {
-        bottom: 0.2em;
-        right: 12%
+        bottom: 0.1%;
     }
 }
 
@@ -128,6 +127,11 @@
     .skill-item {
         width: 50%;
     }
+
+    .footer {
+        width: 350px;
+        align-items: center;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -165,6 +169,11 @@
     .skill-item {
         width: 33%;
     }
+
+    .footer {
+        width: 780px;
+        margin: 0 auto;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -189,7 +198,10 @@
         margin: 0 auto;
     }
 
-    
+    .footer {
+        width: 1024px;
+        margin: 0 auto;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -210,6 +222,11 @@
     }
 
     .skill {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    .footer {
         width: 1280px;
         margin: 0 auto;
     }
@@ -234,6 +251,11 @@
 
     .skill {
         width: 1444px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        width: 1440px;
         margin: 0 auto;
     }
 }
