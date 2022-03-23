@@ -94,6 +94,7 @@ p span {
     flex: 1;
     font-size: 20px;
     font-weight: 500;
+    
 }
 
 .skill-title-content {
@@ -130,17 +131,19 @@ p span {
     font-size: 2.4rem;
     font-weight: 400;
     margin-bottom: 0.5em;
+    color: #6fb98f;
 }
 
 .skill-item-desc {
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 400;
     margin:0.5em 0 0.5em 0;
+    color: #004445;
 }
 
 .skill-future {
     text-align: center;
-    margin-top: 1em;
+    margin: 2em 0;
     font-size: 1.4em;
     font-style: italic;
     font-weight: 100;
