@@ -14,7 +14,7 @@
 }
 
 .title span  {
-    color: #6fb98f
+    color: var(--txtColor);
 }
 
 .title i {
@@ -37,12 +37,12 @@
 .home-title {
     padding: 0 0em 0 2em;
     font-size: 3rem;
-    color:#6fb98f;
+    color: var(--txtColor);
     flex: 2;
 }
 
 p span {
-    color: #2c7873;
+    color: var(--txtColorDesc);
 }
 
 .home-img {
@@ -79,7 +79,7 @@ p span {
 
 .menu-link {
     font-size: 1.2rem;
-    color: #2c7873;
+    color: var(--txtColorDesc);
     font-weight: 700;
     text-decoration: none;
 }
@@ -100,19 +100,19 @@ p span {
 .skill-title-content {
     display: inline-flex;
     align-items: center;
-    color: #6fb98f;
+    color: var(--txtColor);
     font-size: 2rem;
     padding: 1em 0 0 0;
 }
 
 .skill-title-content i {
-    color: #6fb98f;
+    color: var(--txtColor);
     font-size: 1.8rem;
     padding: 0  0 0 12px;
 }
 
 .skill-title-desc {
-    color: #2c7873;
+    color: var(--txtColorDesc);
     font-size: 1rem;
     padding: 0.3rem 0 0 0.7rem;
     font-style: italic;
@@ -131,14 +131,14 @@ p span {
     font-size: 2.4rem;
     font-weight: 400;
     margin-bottom: 0.5em;
-    color: #6fb98f;
+    color: var(--txtColor);
 }
 
 .skill-item-desc {
     font-size: 2em;
     font-weight: 400;
     margin:0.5em 0 0.5em 0;
-    color: #004445;
+    color: var(--txtColorDesc);
 }
 
 .skill-future {
@@ -147,7 +147,7 @@ p span {
     font-size: 1.4em;
     font-style: italic;
     font-weight: 100;
-    color: #2c7873;
+    color: var(--txtColorDesc);
 }
 
 .work {
@@ -157,7 +157,7 @@ p span {
 
 .work-title {
     font-size: 2rem;
-    color: #6fb98f;
+    color: var(--txtColor);
     display: flex;
     align-items: center;
     padding-top: 24px;
@@ -191,17 +191,17 @@ p span {
 .work-item-title {
     font-size: 1.6em;
     font-weight: 400;
-    color: #6fb98f;
+    color: var(--txtColor);
 }
 
 .work-item-name {
     font-size: 0.9em;
-    color: #2c7873;
+    color: var(--txtColorDesc);
 }
 
 .cre-link {
     text-decoration: none;
-    color: #2c7873;
+    color: var(--txtColorDesc);
     font-style: italic;
     font-weight: 100;
     text-decoration: underline;
@@ -223,7 +223,7 @@ p span {
     bottom: -10%;
     right: 0;
     text-decoration: none;
-    color: #004445;
+    color: var(--txtColorDesc);
     font-style: italic;
 }
 
@@ -247,7 +247,7 @@ p span {
 
 .footer-item i {
     font-size: 1.8em;
-    color: #2c7873;
+    color: var(--txtColorDesc);
 }
 
 .copyright {
@@ -255,7 +255,7 @@ p span {
     font-weight: 300;
     font-style: italic;
     padding: 4px 8px;
-    color: #2c7873;
+    color: var(--txtColorDesc);
 }
 
 .contact {
@@ -266,7 +266,7 @@ p span {
 
 .contact-title {
     font-size: 2rem;
-    color: #6fb98f;
+    color: var(--txtColor);
     display: flex;
     align-items: center;
     padding-top: 24px;  
@@ -323,7 +323,7 @@ p span {
 }
 
 .form-control label {
-    color: #6fb98f;
+    color: var(--txtColor);
     padding: 10px 0;
     font-size: 1.2em;
 }
@@ -347,16 +347,16 @@ p span {
 .contact-btn {
     margin-top: 20px;
     background-color: transparent;
-    border: 2px solid #6fb98f;
+    border: 2px solid var(--txtColor);
     outline: none;
     border-radius: 3px;
     padding: 12px 40px;
-    color: #6fb98f;
+    color: var(--txtColor);
     font-weight: 600;
 }
 
 .contact-btn:hover {
-    background-color: #6fb98f;
+    background-color: var(--txtColor);
     color: #fff;
     transition: background-color 0.5s;
 }
