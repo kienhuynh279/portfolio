@@ -16,13 +16,14 @@ avatar.addEventListener('mouseleave', (e)=> {
 contactBtn.addEventListener('click', function(e) {
     e.preventDefault()
 
-    const contactName = document.getElementById('name').value
+    const contactFirstName = document.getElementById('firstname').value
     const contactEmail = document.getElementById('email').value
     const contactSubject = document.getElementById('subject').value
     const contactMessage = document.getElementById('message').value
+    const contactLastName = document.getElementById('lastname').value
 
 
-    const body = 'name: ' + contactName + '</br> email: ' + contactEmail + '</br> subject: ' + contactSubject + '</br> message: ' + contactMessage
+    const body = 'First name: ' + contactFirstName + '</br> Last name: ' + contactLastName + '</br> email: ' + contactEmail + '</br> subject: ' + contactSubject + '</br> message: ' + contactMessage
 
     Email.send({
         Host : "smtp.gmail.com",

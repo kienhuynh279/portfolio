@@ -288,6 +288,7 @@ p span {
     display: grid;
     grid-template-columns: 33,34% 33,33% 33,33%;
     grid-template-rows: 80px 80px 80px;
+    gap: 20px
 }
 
 .form-control:first-child {
@@ -295,46 +296,54 @@ p span {
     grid-row: 1/ span 3;
 }
 
-.form-control:last-child {
-    grid-column: 2/ span 3;
-    grid-row: 1/ span 3;
-}
-
 .form-control:nth-child(2) {
-    grid-column: 1/ span 1;
-    grid-row: 2/ span 3;
+    grid-column: 2/ span 1;
+    grid-row: 1/ span 3;
 }
 
 .form-control:nth-child(3) {
     grid-column: 1/ span 1;
+    grid-row: 2/ span 3;
+}
+
+.form-control:nth-child(4) {
+    grid-column: 2/ span 1;
+    grid-row: 2/ span 3;
+}
+
+.form-control:last-child {
+    grid-column: 1/ span 2;
     grid-row: 3/ span 3;
 }
 
 .form-control {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .form-control label {
     color: #6fb98f;
     padding: 10px 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .form-input {
     height: 30px;
-    border-radius: 8px;
-    margin: 0 12px 0 0;
+    border-radius: 4px;
+}
+
+.form-input:focus {
+    outline: none;
 }
 
 .form-textarea {
     height: 77%;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .contact-btn {
+    margin-top: 20px;
     background-color: transparent;
     border: 2px solid #6fb98f;
     outline: none;
