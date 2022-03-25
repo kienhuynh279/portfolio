@@ -333,13 +333,15 @@ p span {
     border-radius: 4px;
 }
 
-.form-input:focus {
+.form-input:focus,
+.form-textarea:focus {
     outline: none;
 }
 
 .form-textarea {
-    height: 77%;
+    height: 80%;
     border-radius: 4px;
+    width: 100%;
 }
 
 .contact-btn {
