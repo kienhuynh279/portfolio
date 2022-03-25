@@ -83,6 +83,11 @@
         justify-content: center;
         align-items: center;
     }
+
+    .contact {
+        width: 350px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -142,6 +147,11 @@
         width: 350px;
         align-items: center;
     }
+
+    .contact {
+        width: 580px;
+        margin: 0 auto;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -184,6 +194,11 @@
         width: 780px;
         margin: 0 auto;
     }
+
+    .contact {
+        width:780px;
+        margin: 0 auto;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -209,6 +224,11 @@
     }
 
     .footer {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .contact {
         width: 1024px;
         margin: 0 auto;
     }
@@ -240,6 +260,11 @@
         width: 1280px;
         margin: 0 auto;
     }
+
+    .contact {
+        width: 1280px;
+        margin: 0 auto;
+    }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -265,6 +290,11 @@
     }
 
     .footer {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .contact {
         width: 1440px;
         margin: 0 auto;
     }

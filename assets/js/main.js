@@ -1,5 +1,8 @@
 const audio = document.querySelector("audio")
 const avatar = document.querySelector(".home-img img")
+const contactBtn = document.getElementById('contact-btn')
+
+
 
 avatar.addEventListener('mouseover', (e)=> {
     audio.currentTime = 6;
@@ -10,25 +13,29 @@ avatar.addEventListener('mouseleave', (e)=> {
     audio.pause();
 })
 
-// arr = [3, 5, 0, 6, 6, -5, -8, 6, 7, -8]
+contactBtn.addEventListener('click', function(e) {
+    e.preventDefault()
 
-// var arr1 = arr.filter((element) => {
-//     return element%2 === 0 && element > 0;
-// })
+    const contactName = document.getElementById('name').value
+    const contactEmail = document.getElementById('email').value
+    const contactSubject = document.getElementById('subject').value
+    const contactMessage = document.getElementById('message').value
 
-// function maxCount () {
-//     let count = 0;
-//     let max = arr1[arr1.length - 1]
 
-//     for (i of arr1) {
-//         if(i === max){
-//             count ++;
-//         }
-//     }
+    const body = 'name: ' + contactName + '</br> email: ' + contactEmail + '</br> subject: ' + contactSubject + '</br> message: ' + contactMessage
 
-//     return count;
-// }
-// console.log(maxCount());
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "kienhuynh279@gmail.com",
+        Password : "yzfzsnwnhmnrwlrg",
+        To : 'kienhuynh279@gmail.com',
+        From : contactEmail,
+        Subject : contactSubject,
+        Body : body
+    }).then(
+        alert('Cảm ơn bạn đã gửi thư cho chúng tôi!')
+    );
+})
 
 
 
