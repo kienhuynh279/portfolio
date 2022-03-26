@@ -1,8 +1,11 @@
 const audio = document.querySelector("audio")
 const avatar = document.querySelector(".home-img img")
 const contactBtn = document.getElementById('contact-btn')
+const lightModeIcon = document.getElementById('icon')
 
-
+lightModeIcon.onclick = function () {
+    document.body.classList.toggle("lightmode")
+}
 
 avatar.addEventListener('mouseover', (e)=> {
     audio.currentTime = 6;

@@ -3,15 +3,40 @@
 
 html {
     font-family: 'Rubik', sans-serif;
-    background-color: var(--primaryColor);
     color: #fff;
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primaryColor);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--primaryColor);
+    border-radius: 100rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--txtColor);
+    border-radius: 100rem;
 }
 
 :root {
     --primaryColor: #021c1e;
     --txtColor: #6fb98f;
     --txtColorDesc: #2c7873;
+    --txtWhiteColor: #fff;
+}
+
+.lightmode {
+    --primaryColor: #E9E5D6;
+    --txtColor: #464E2E;
+    --txtColorDesc: #362706;
+    --txtWhiteColor: #ACB992;
 }
 
 @keyframes flicker {
